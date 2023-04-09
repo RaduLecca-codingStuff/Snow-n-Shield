@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4877503315235781764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4877503315235781762}
+  - component: {fileID: 4877503315235781763}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4877503315235781762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877503315235781764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 70.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4877503315235781763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877503315235781764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9785583337f599d4fbc0afc355ce9e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSceneRemoteControllable: 1
+  progressBar: {fileID: 0}
+  ScoreText: {fileID: 0}
+  MainMenuButtons: {fileID: 0}
+  DifficultyButtons: {fileID: 0}
+  SRegulator: {fileID: 0}
+  MenuTerrain: {fileID: 0}
+  EasyMode: {fileID: 0}
+  MediumMode: {fileID: 0}
+  HardMode: {fileID: 0}
+  playerBar: {fileID: 0}
+  ButtonsCanvas: {fileID: 0}
+  HealthbarsCanvas: {fileID: 0}
+  WeaponSwitcher: {fileID: 0}
+  GameWonButtons: {fileID: 0}
+  GameLossButtons: {fileID: 0}
+  musicBox: {fileID: 0}
+  MenuMusic: {fileID: 8300000, guid: 60079dbf1ab2c8d4787a7c1a60faca20, type: 3}
+  EasyMusic: {fileID: 8300000, guid: 60079dbf1ab2c8d4787a7c1a60faca20, type: 3}
+  MediumMusic: {fileID: 8300000, guid: d19d784d09dc87a48aa3c915be4d648f, type: 3}
+  HardMusic: {fileID: 8300000, guid: ec9df9796351a7340a27651ed0f4dfde, type: 3}
+  Player: {fileID: 0}
+  Countdown: {fileID: 0}

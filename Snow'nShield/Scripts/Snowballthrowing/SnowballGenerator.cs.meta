@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63d17c32e3a059940806c86327a78800
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snowballPrefab: {fileID: 1038067665617195005, guid: c2c9558fb7b583c4caa202fb03abc0cd,
+      type: 3}
+  - Player: {instanceID: 0}
+  - gnr: {fileID: 4712379497595777280, guid: dcd4e361917cfe54984b708b372a21c0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
